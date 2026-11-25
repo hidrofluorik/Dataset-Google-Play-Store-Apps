@@ -1,0 +1,89 @@
+{
+  "varian": 3,
+  "nama": "Penentuan k dengan Davies-Bouldin Index",
+  "kriteria": "Davies-Bouldin Index terendah",
+  "pemeriksa_silang": "Calinski-Harabasz Index tertinggi",
+  "fitur_dipakai": [
+    "Rating",
+    "Reviews",
+    "Installs"
+  ],
+  "k_terpilih": 2,
+  "k_menurut_calinski_harabasz": 10,
+  "kedua_indeks_sepakat": false,
+  "tafsiran": "klaster rapat di dalam dan berjauhan antarklaster",
+  "catatan": "Kedua indeks berbeda: DBI menunjuk k=2, Calinski-Harabasz menunjuk k=10. Selisihnya perlu dijelaskan, bukan diabaikan. Pada k=10 nilai DBI adalah 0.7576, selisih +0.1478 dari nilai terendah. Calinski-Harabasz cenderung naik pada k kecil karena pembaginya ikut mengecil, sehingga pada data yang strukturnya lemah ia sering memuncak lebih awal daripada DBI.",
+  "metrik_utama": {
+    "davies_bouldin": 0.6098
+  },
+  "metrik_pendukung": {
+    "calinski_harabasz": 15648.7,
+    "silhouette": 0.5915,
+    "inertia": 12517.45
+  },
+  "tabel_k": [
+    {
+      "k": 2,
+      "inertia": 12517.4475,
+      "silhouette": 0.5915,
+      "davies_bouldin": 0.6098,
+      "calinski_harabasz": 12698.2676
+    },
+    {
+      "k": 3,
+      "inertia": 6842.2682,
+      "silhouette": 0.5654,
+      "davies_bouldin": 0.6151,
+      "calinski_harabasz": 15618.576
+    },
+    {
+      "k": 4,
+      "inertia": 5320.9015,
+      "silhouette": 0.4948,
+      "davies_bouldin": 0.7347,
+      "calinski_harabasz": 14308.3293
+    },
+    {
+      "k": 5,
+      "inertia": 4176.5973,
+      "silhouette": 0.5203,
+      "davies_bouldin": 0.761,
+      "calinski_harabasz": 14331.2349
+    },
+    {
+      "k": 6,
+      "inertia": 3534.8548,
+      "silhouette": 0.5251,
+      "davies_bouldin": 0.8139,
+      "calinski_harabasz": 13895.5284
+    },
+    {
+      "k": 7,
+      "inertia": 2963.991,
+      "silhouette": 0.5137,
+      "davies_bouldin": 0.8089,
+      "calinski_harabasz": 14118.281
+    },
+    {
+      "k": 8,
+      "inertia": 2436.6809,
+      "silhouette": 0.5403,
+      "davies_bouldin": 0.7498,
+      "calinski_harabasz": 15017.0834
+    },
+    {
+      "k": 9,
+      "inertia": 2106.7766,
+      "silhouette": 0.5354,
+      "davies_bouldin": 0.7314,
+      "calinski_harabasz": 15385.0799
+    },
+    {
+      "k": 10,
+      "inertia": 1857.9615,
+      "silhouette": 0.5397,
+      "davies_bouldin": 0.7576,
+      "calinski_harabasz": 15648.7373
+    }
+  ]
+}
